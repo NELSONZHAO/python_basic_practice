@@ -50,7 +50,7 @@ def total_add(calc_result):
 
 
 # 加载文件
-def load_file(path='/Users/apple/PycharmProjects/python_exercise/practice/0007codes/'):
+def load_file(path='/Users/apple/Desktop/python_files/'):
 	# 输出文件数量
 	print "There are %s code files in current path." % len(os.listdir(path))
 	print '-' * 30

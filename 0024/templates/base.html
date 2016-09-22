@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home -  Todolist</title>
+    <style type="text/css">
+        h1,p,form{text-align:center;}
+    </style>
+</head>
+<body>
+    <h1>Welcome to the page of Todolist.</h1>
+    <hr>
+    {% for message in get_flashed_messages() %}
+        <div class="flash">{{ message }}</div>
+    {% endfor %}
+    {% block content %}{% endblock %}
+</body>
+</html>
