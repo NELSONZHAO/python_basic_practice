@@ -1,7 +1,7 @@
 # coding: utf-8
 # 题目描述:将你的 QQ 头像（或者微博头像）右上角加上红色的数字，类似于微信未读信息数量那种提示效果。
 # 思路:1.打开图片;2.生成字体对象;3.添加字体对象到图片;4.保存新图片
-
+# test github
 from PIL import Image, ImageFont, ImageDraw
 import sys
 reload(sys)
